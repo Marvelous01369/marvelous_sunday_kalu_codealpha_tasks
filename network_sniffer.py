@@ -43,4 +43,4 @@ def start_sniffing(interface='wlan0', duration=60, packet_count=None):
     if sniffer.running:
         sniffer.stop()
 
-start_sniffing(interface='wlan0', duration=60, packet_count=20)
+start_sniffing(interface='wlan0', duration=60, packet_count=30)
